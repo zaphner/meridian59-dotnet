@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meridian59", "Meridian59\Meridian59.csproj", "{E8223F3F-3F18-4F4C-9A8F-D9102B067BE3}"
 EndProject
@@ -46,6 +46,11 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Meridian59.BgfService", "ht
 		Release.AspNetCompiler.Debug = "False"
 		SlnRelativePath = "Meridian59.BgfService\"
 		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{997CBC63-C8BC-426C-A205-995D999D5F7F}"
+	ProjectSection(SolutionItems) = preProject
+		Engine\src\Engine.sln = Engine\src\Engine.sln
 	EndProjectSection
 EndProject
 Global
@@ -153,5 +158,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F43849C-729B-4390-AA3E-A1260A26A481}
 	EndGlobalSection
 EndGlobal
